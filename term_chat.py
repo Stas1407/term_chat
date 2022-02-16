@@ -2,12 +2,13 @@ import socket
 from misc.CommandsInterface import CommandsInterface
 from misc.Session import Session
 from misc.utils import *
+from settings import server_ip, server_port
 
 
 class Client:
     def __init__(self):
-        self.SERVER_IP = "127.0.0.1"
-        self.SERVER_PORT = 5000
+        self.SERVER_IP = server_ip
+        self.SERVER_PORT = server_port
         self.socket = socket.socket()
         self.session = Session(self.socket)
 
