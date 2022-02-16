@@ -1,7 +1,7 @@
 import socket
-from Client_files.CommandsInterface import CommandsInterface
-from Client_files.Session import Session
-from Client_files.utils import *
+from misc.CommandsInterface import CommandsInterface
+from misc.Session import Session
+from misc.utils import *
 
 
 class Client:

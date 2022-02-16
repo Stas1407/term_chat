@@ -2,8 +2,8 @@ import asyncio
 import sys
 import aioconsole
 import readline
-from Client_files.utils import *
-from Client_files.ChatSession import ChatSession
+from misc.utils import *
+from misc.ChatSession import ChatSession
 
 
 class Chat:

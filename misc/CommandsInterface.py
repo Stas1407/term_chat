@@ -1,7 +1,7 @@
-from Client_files.Chat import Chat
-from Client_files.utils import clear
+from misc.Chat import Chat
+from misc.utils import clear
 from texttable import Texttable
-from Client_files.banner import banner
+from misc.banner import banner
 
 
 class CommandsInterface:

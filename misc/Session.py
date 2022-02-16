@@ -2,7 +2,7 @@ from pyDH import DiffieHellman
 import json
 from cryptography.fernet import Fernet
 import base64
-from Client_files.profile import username
+from misc.profile import username
 
 
 class Session:
